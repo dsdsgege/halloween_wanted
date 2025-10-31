@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Körözött Személy</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Egyedi stílusok a kép alapján */
+        body {
+            background-color: #f4f4f4; /* Világosszürke háttér */
+        }
+        .main-title {
+            color: #003366; /* Sötétkék cím */
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .alert-banner {
+            background-color: #d9534f; /* Piros sáv */
+            color: white;
+            font-weight: bold;
+            border-radius: 0;
+        }
+        .social-icons a {
+            font-size: 1.5rem;
+            margin-left: 10px;
+            color: #003366;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #0056b3;
+        }
+        .info-header {
+            background-color: #003366; /* Sötétkék fejléc */
+            color: white;
+            font-weight: bold;
+        }
+        .personal-data-body {
+            background-color: #e6f0ff; /* Világoskék háttér */
+        }
+        /* Definiton list stílusok a jobb olvashatóságért */
+        .info-list dt {
+            font-weight: 600; /* Félkövér kulcsok */
+            color: #333;
+        }
+        .info-list dd {
+            margin-bottom: .5rem;
+            font-weight: normal;
+        }
+        .profile-img {
+            border: 4px solid #003366; /* Kép kerete */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-3">
+
+        <h1 class="main-title text-center">ELFOGATÓPARANCS ALAPJÁN KÖRÖZÖTT SZEMÉLY</h1>
+
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="alert alert-banner p-2 my-2">
+                <i class="fa-solid fa-bullhorn"></i>
+                Felismeri? Tegyen bejelentést!
+            </div>
+            <div class="social-icons my-2">
+                <a href="#" title="Megosztás Facebookon"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#" title="Megosztás Twitteren"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#" title="Megosztás Viberen"><i class="fa-brands fa-viber"></i></a>
+                <a href="#" title="Nyomtatás" onclick="window.print(); return false;"><i class="fa-solid fa-print"></i></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-5 mb-3">
+                <img src="https://via.placeholder.com/400x500.png?text=Helyőrző+Kép" alt="Körözött személy" class="img-fluid rounded profile-img">
+            </div>
+
+            <div class="col-lg-8 col-md-7 mb-3">
+                <div class="card shadow-sm border-dark">
+                    <div class="card-header info-header">
+                        Személyes adatok
+                    </div>
+                    <div class="card-body personal-data-body">
+                        <dl class="row info-list">
+                            <dt class="col-sm-5">Név:</dt>
+                            <dd class="col-sm-7">MINTA JÁNOS</dd>
+
+                            <dt class="col-sm-5">Születési családi és utónév:</dt>
+                            <dd class="col-sm-7">MINTA JÁNOS</dd>
+
+                            <dt class="col-sm-5">Nem:</dt>
+                            <dd class="col-sm-7">Férfi</dd>
+
+                            <dt class="col-sm-5">Születési hely:</dt>
+                            <dd class="col-sm-7">MINTAORSZÁG</dd>
+
+                            <dt class="col-sm-5">Születési dátum:</dt>
+                            <dd class="col-sm-7">2000-01-01</dd>
+
+                            <dt class="col-sm-5">Állampolgárság:</dt>
+                            <dd class="col-sm-7">MINTA ÁLLAMPOLGÁR</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div> <div class="row mt-2">
+            <div class="col-12">
+                <div class="card shadow-sm border-dark">
+                    <div class="card-header info-header">
+                        Körözési információk
+                    </div>
+                    <div class="card-body">
+                        <dl class="row info-list">
+                            <dt class="col-sm-4">Körözés oka:</dt>
+                            <dd class="col-sm-8">ELFOGATÓPARANCS (Be. 119. § (1) BEKEZDÉS)</dd>
+
+                            <dt class="col-sm-4">Körözés jogalapja, bűncselekmény megnevezése:</dt>
+                            <dd class="col-sm-8">MINTA BŰNCSELEKMÉNY - BTK 000.§</dd>
+
+                            <dt class="col-sm-4">Körözés elrendelésének időpontja:</dt>
+                            <dd class="col-sm-8">2024-01-01</dd>
+
+                            <dt class="col-sm-4">Körözést elrendelő szerv:</dt>
+                            <dd class="col-sm-8">MINTA VÁROSI RFK MINTA OSZTÁLY</dd>
+                            
+                            <dt class="col-sm-4">Körözést elrendelő szerv értesítési címe:</dt>
+                            <dd class="col-sm-8">1234 MINTAVÁROS, MINTA U. 1.</dd>
+
+                            <dt class="col-sm-4">Tel:</dt>
+                            <dd class="col-sm-8">123-4567</dd>
+
+                            <dt class="col-sm-4">Körözés elrendelés határozat száma:</dt>
+                            <dd class="col-sm-8">01000/123/2024.BÜ.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div> </div> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
